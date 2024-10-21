@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alura.Adopet.API", "Alura.Adopet.API\Alura.Adopet.API.csproj", "{1EFD091A-90B3-42C9-90D0-1B73FA46C5C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alura.Adopet.Console", "Alura.Adopet.Console\Alura.Adopet.Console.csproj", "{CDC4860C-35AD-4396-B20F-547C44F680CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alura.Adopet.Testes", "Alura.Adopet.Testes\Alura.Adopet.Testes.csproj", "{C2E58A96-D278-4858-955F-01583D15717D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A15E04B-910F-42E0-9BBE-ED7B03F5033E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0CFE6FAA-0549-406C-9F1E-9A19AD79D5A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura.Adopet.TestesIntegracao", "Alura.Adopet.TestesIntegracao\Alura.Adopet.TestesIntegracao.csproj", "{77B399CE-CD22-425D-9062-707010051DCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EFD091A-90B3-42C9-90D0-1B73FA46C5C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFD091A-90B3-42C9-90D0-1B73FA46C5C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFD091A-90B3-42C9-90D0-1B73FA46C5C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFD091A-90B3-42C9-90D0-1B73FA46C5C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDC4860C-35AD-4396-B20F-547C44F680CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDC4860C-35AD-4396-B20F-547C44F680CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDC4860C-35AD-4396-B20F-547C44F680CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDC4860C-35AD-4396-B20F-547C44F680CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2E58A96-D278-4858-955F-01583D15717D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2E58A96-D278-4858-955F-01583D15717D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2E58A96-D278-4858-955F-01583D15717D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2E58A96-D278-4858-955F-01583D15717D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B399CE-CD22-425D-9062-707010051DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B399CE-CD22-425D-9062-707010051DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B399CE-CD22-425D-9062-707010051DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B399CE-CD22-425D-9062-707010051DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1EFD091A-90B3-42C9-90D0-1B73FA46C5C1} = {0A15E04B-910F-42E0-9BBE-ED7B03F5033E}
+		{CDC4860C-35AD-4396-B20F-547C44F680CC} = {0A15E04B-910F-42E0-9BBE-ED7B03F5033E}
+		{C2E58A96-D278-4858-955F-01583D15717D} = {0CFE6FAA-0549-406C-9F1E-9A19AD79D5A4}
+		{77B399CE-CD22-425D-9062-707010051DCA} = {0CFE6FAA-0549-406C-9F1E-9A19AD79D5A4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAEB95A1-EC72-45C6-AC85-ED67A380D7A0}
+	EndGlobalSection
+EndGlobal
